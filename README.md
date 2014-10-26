@@ -21,12 +21,6 @@ tcp://192.168.59.103:2376
 ```
 * Open your browser at the following url: http://<host>:8080/index.php replacing <host> with value from $DOCKER_HOST. (In my case http://192.168.59.103:8080/index.php)
 
-## Benchmarks
-Benchmarks are run with ab on a Mackbook Air:
-```bash
-ab -c 100 -n 1000 http://192.168.59.103:8080/install.php
-```
-Benchmarks are available [here](https://github.com/petitchevalroux/docker-php-pluxml/tree/master/bench)
 
 ## About me
 http://petitchevalroux.net
