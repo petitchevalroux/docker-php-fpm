@@ -1,5 +1,7 @@
 # PHP-fpm in Docker
-Available on docker hub https://registry.hub.docker.com/u/petitchevalroux/php-fpm/
+Available on:
+* [docker hub](https://registry.hub.docker.com/u/petitchevalroux/php-fpm/)
+* [github](https://github.com/petitchevalroux/docker-php-fpm)
 
 ## Quick start
 * [Install docker](https://docs.docker.com/installation/)
@@ -7,7 +9,6 @@ Available on docker hub https://registry.hub.docker.com/u/petitchevalroux/php-fp
 * Clone this repository
 ```bash
 git clone https://github.com/petitchevalroux/docker-php-fpm.git .
-
 ```
 * Launch
 ```bash
