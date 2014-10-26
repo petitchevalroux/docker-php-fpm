@@ -3,6 +3,10 @@ Available on:
 * [docker hub](https://registry.hub.docker.com/u/petitchevalroux/php-fpm/)
 * [github](https://github.com/petitchevalroux/docker-php-fpm)
 
+Docker php-fpm container use to package php applications
+
+([nginx-php](https://github.com/petitchevalroux/docker-nginx-php)) <-> (php-fpm + application)
+
 ## Quick start
 * [Install docker](https://docs.docker.com/installation/)
 * [Install fig](http://www.fig.sh/install.html)
