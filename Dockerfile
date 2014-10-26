@@ -13,7 +13,7 @@ COPY ./www.conf /etc/php5/fpm/pool.d/www.conf
 RUN mkdir -p /var/www && \
     echo "<?php phpinfo(); ?>" > /var/www/index.php && \
     chown -R www-data:www-data /var/www
-
+RUN apt-get -y install php-apc
 RUN apt-get -y autoremove
 RUN apt-get clean
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
