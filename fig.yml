@@ -1,0 +1,14 @@
+nginx:
+    image: petitchevalroux/nginx-php:1.7
+    ports:
+        - 8080:80
+    links:
+        - php
+    volumes_from:
+        - php
+php:
+    image: petitchevalroux/php-fpm:5.4
+    expose:
+        - 9000
+    volumes:
+        - /var/www
